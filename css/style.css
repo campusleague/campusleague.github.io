@@ -3750,7 +3750,9 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-
+	body.is-mobile.landing #banner img {
+		width: 200px !important;
+	}
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
